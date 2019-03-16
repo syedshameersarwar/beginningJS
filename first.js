@@ -50,7 +50,7 @@ function calbacks(cal){ //call back function:calls the given function.
   return cal(7,5);
 }
 
-function calback(cal){ //call back function:calls the given function.
+function calback(cal){ //no call back function:return simply the reference of function.
   return cal;
 }
 
