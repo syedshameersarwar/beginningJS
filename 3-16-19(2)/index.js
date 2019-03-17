@@ -10,8 +10,8 @@ console.log("hello world again");
 //a();
 */
 
-//import http from "http"; //with esm
-const http = require('http'); //for heroku
+import http from "http"; //with esm
+//const http = require('http'); //for heroku
 http.createServer((req,res,nxt)=>{
   console.log('helllo world');
   console.log(req.url);
